@@ -1,0 +1,15 @@
+#distinguish-display-box {
+    position: fixed !important;
+    left : 6px !important;
+    bottom : 40px !important;
+    width: 30px !important;
+    min-height: 100px !important;
+    max-height: 300px !important;
+    z-index : 999999999 !important;
+    writing-mode: vertical-rl !important;
+    cursor: pointer !important;
+    text-align: center !important;
+    font-size: 25px !important;
+    margin: -5px !important;
+    color: #000 !important;
+}

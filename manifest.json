@@ -1,0 +1,33 @@
+{
+    "name": "Distinguish",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "開発環境と本番環境を見分けやすくする拡張。",
+    "browser_action": {
+        "default_icon": "/img/icon.png",
+        "default_title": "icon"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "*://*/*" ],
+            "js": [
+                "build/main.js"
+            ]
+        }
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "permissions": [
+        "storage",
+        "contextMenus",
+        "downloads",
+        "alarms"
+    ],
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ]
+    },
+    "options_ui" : {
+        "page": "main.html"
+    }
+}

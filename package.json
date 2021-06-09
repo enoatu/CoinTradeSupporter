@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "webpack",
-    "fix": "eslint --fix"
+    "fmt": "prettier --check --write 'js/**/*{.js,.jsx,.ts,.tsx}'"
   },
   "dependencies": {
     "@babel/core": "^7.2.2",
@@ -26,6 +26,7 @@
   },
   "private": true,
   "devDependencies": {
+    "prettier": "^2.3.1",
     "react-beautiful-dnd": "^11.0.4"
   }
 }
