@@ -1,8 +1,8 @@
 {
-    "name": "Distinguish",
+    "name": "CoinTradeSupporter",
     "version": "0.0.1",
     "manifest_version": 2,
-    "description": "開発環境と本番環境を見分けやすくする拡張。",
+    "description": "すべてのコイントレーダーに捧げる...",
     "browser_action": {
         "default_icon": "/img/icon.png",
         "default_title": "icon"
@@ -26,8 +26,5 @@
         "scripts": [
             "js/background.js"
         ]
-    },
-    "options_ui" : {
-        "page": "main.html"
     }
 }

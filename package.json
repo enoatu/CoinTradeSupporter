@@ -1,4 +1,5 @@
 {
+  "private": true,
   "scripts": {
     "start": "webpack",
     "fmt": "prettier --check --write 'js/**/*{.js,.jsx,.ts,.tsx}'"
@@ -16,15 +17,12 @@
     "react-color": "^2.17.0",
     "react-dom": "^16.6.3",
     "regenerator-runtime": "^0.13.1",
-    "spectrum": "^1.0.1",
     "styled-components": "^4.1.3",
     "styled-reset": "^1.6.4",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2"
   },
-  "private": true,
   "devDependencies": {
-    "prettier": "^2.3.1",
-    "react-beautiful-dnd": "^11.0.4"
+    "prettier": "^2.3.1"
   }
 }

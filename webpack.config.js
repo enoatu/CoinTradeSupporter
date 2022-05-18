@@ -1,8 +1,6 @@
 module.exports = {
   mode: 'development',
-  entry: './js/option.js',
   entry: {
-    'option': './js/option.js',
     'main': './js/main.js',
   },
   watch: true,
